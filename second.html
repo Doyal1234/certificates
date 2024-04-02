@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Certificate app</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: aquamarine;">
+<center>
+
+<h1>Certificate</h1>
+<br>
+<br>
+<div id="cf" style="border: 4px solid blueviolet">
+<img src="star.jpg" class="star">
+<label id="kvs">Kendriya Vidyalaya Ambernath</label>
+<img src="star.jpg" class="star">
+<br>
+<label>
+<label> <h3>Name-------</h3> </h3> <h3>Class-------</h3>    <h3>Section------</h3>    <h3>Roll No.---------</h3></label>
+<label> <h3 id="name"></h3> </h3> <h3 id="grade"></h3>    <h3 id="sec"></h3>    <h3 id="roll"></h3></label>
+</label>
+<br>
+<h3>Sr.number &nbsp; &nbsp; &nbsp;Subject &nbsp; &nbsp; &nbsp;Marks Obtained &nbsp; &nbsp; &nbsp; Total Marks</h3>
+<h3>1 &nbsp; &nbsp; &nbsp;English &nbsp; &nbsp; &nbsp;<label id="english">________________  </label>&nbsp; &nbsp; &nbsp; 100</h3>
+<h3>2 &nbsp; &nbsp; &nbsp;Hindi &nbsp; &nbsp; &nbsp;<label id="hin">________________  </label>&nbsp; &nbsp; &nbsp; 100</h3>
+<h3>3 &nbsp; &nbsp; &nbsp;Maths &nbsp; &nbsp; &nbsp;<label id="math">________________ </label> &nbsp; &nbsp; &nbsp; 100</h3>
+<h3>RESULT-</h3> 
+<h3 style="visibility: hidden;" id="pass1">Pass in english</h3> 
+<h3 style="visibility: hidden;" id="fail1">Fail in english</h3>
+<h3 style="visibility: hidden;" id="pass2">Pass in hindi</h3> 
+<h3 style="visibility: hidden;" id="fail2">Fail in hindi</h3>
+<h3 style="visibility: hidden;" id="pass3">Pass in math</h3> 
+<h3 style="visibility: hidden;" id="fail3">Fail in math</h3>
+<button onclick="start()">Check the marks</button>
+</div>
+</center> 
+<script src="second.js"></script>
+</body>
+</html>
